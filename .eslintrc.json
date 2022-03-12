@@ -1,0 +1,49 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-console": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "object-curly-newline": "off",
+    "no-trailing-spaces": "error",
+    "no-unused-expressions": "error",
+    "no-undef": "error",
+    "no-var": "error",
+    "no-shadow": "error",
+    "arrow-spacing": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never"
+      }
+    ],
+    "linebreak-style": "off",
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"],
+        "paths": ["./"]
+      }
+    }
+  },
+  "plugins": ["@typescript-eslint"]
+}
